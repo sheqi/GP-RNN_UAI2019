@@ -13,11 +13,13 @@ If you find this useful in your research, please consider citing:
 Latent dynamics discovery is challenging in extracting complex dynamics from high dimensional noisy neural data. we propose a novel latent dynamic model that is capable of capturing nonlinear, non-Markovian, long-short term time-dependent dynamics via recurrent neural networks and tackling complex nonlinear embedding via non-parametric Gaussian process. The model can be easily adapted to exploring latent representations of time series with either Gaussian (continuous) or Poisson (discrete) observations.
 
 ## 1. Model overview
+### Model
 Our model composes RNN (e.g.LSTM) with hidden states (**h**) encoded in the prior distribution of latent states (**z**), and then maps to the noisy-free space of observations (**x**).  
 <div  align="center">    
 <img src="https://raw.githubusercontent.com/sheqi/GP-RNN_UAI2019/master/figs/scheme.png" width = "350" height = "180" alt="Image of GP-RNN" align=center />
 </div>
 
+###  inference
 The inference methods are non-trivial with Gaussian and Poisson observations, one of powerful inference networks is bi-LSTM as shown below, please see the details in the paper.
 <div  align="center">    
 <img src="https://raw.githubusercontent.com/sheqi/GP-RNN_UAI2019/master/figs/bi-LSTM.png" width = "350" height = "180" alt="Image of GP-RNN" align=center />
