@@ -19,10 +19,10 @@ Our model composes RNN (e.g.LSTM) with hidden states (**h**) encoded in the prio
 <img src="https://raw.githubusercontent.com/sheqi/GP-RNN_UAI2019/master/figs/scheme.png" width = "350" height = "180" alt="Image of GP-RNN" align=center />
 </div>
 
-###  inference
+###  Inference
 The inference methods are non-trivial with Gaussian and Poisson observations, one of powerful inference networks is bi-LSTM as shown below, please see the details in the paper.
 <div  align="center">    
-<img src="https://raw.githubusercontent.com/sheqi/GP-RNN_UAI2019/master/figs/bi-LSTM.png" width = "350" height = "180" alt="Image of GP-RNN" align=center />
+<img src="https://raw.githubusercontent.com/sheqi/GP-RNN_UAI2019/master/figs/bi-LSTM.png" width = "380" height = "200" alt="Image of GP-RNN" align=center />
 </div>
 
 ## 2. Dependences
