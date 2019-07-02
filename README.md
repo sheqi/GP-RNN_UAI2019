@@ -44,4 +44,4 @@ $ pip install -r requirements.txt
 ## 4. Demo
 - please run jupyter lab to test attached demo.
 
-Feel free to submit an issue to the repo and contact the corresponding author [Qi She](sheqi1991@gmail.com) if you have any problem or would like to contribute.
+Feel free to submit an issue to the repo and contact the corresponding author [Qi She](mailto:sheqi1991@gmail.com) if you have any problem or would like to contribute.
