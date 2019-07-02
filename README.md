@@ -14,7 +14,7 @@ Latent dynamics discovery is challenging in extracting complex dynamics from hig
 
 ## 1. Model overview
 ### Model
-Our model composes RNN (e.g.LSTM) with hidden states (**h**) encoded in the prior distribution of latent states (**z**), and then maps to the noisy-free space of observations (**x**).  
+Our model composes RNN (e.g.LSTM) with hidden states (**v**) encoded in the prior distribution of latent states (**z**), and then maps to the noisy-free space of observations (**x**).  
 <div  align="center">    
 <img src="https://raw.githubusercontent.com/sheqi/GP-RNN_UAI2019/master/figs/scheme.png" width = "350" height = "180" alt="Image of GP-RNN" align=center />
 </div>
