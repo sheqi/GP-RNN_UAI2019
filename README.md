@@ -28,7 +28,8 @@ The inference methods are non-trivial with Gaussian and Poisson observations, on
 ## 2. Dependences
 - Ubuntu 16.04
 - python3.6
-- tensorflow-gpu 1.5.0 (cpu version is also compatible with minimal modification in the code)
+- tensorflow-gpu 1.5.0 (cpu version is also compatible)
+- CUDA9.0
 
 ## 3. Start
 - recommend install in virtual environment
