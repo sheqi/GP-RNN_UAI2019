@@ -4,7 +4,7 @@ attrs==19.1.0
 backcall==0.1.0
 bayesiancoresets==0.9
 bleach==1.5.0
-certifi==2019.6.16
+certifi==2022.12.7
 cycler==0.10.0
 decorator==4.4.0
 edward==1.3.5
